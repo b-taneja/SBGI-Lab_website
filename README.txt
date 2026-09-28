@@ -3,7 +3,7 @@ SBGI LAB WEBSITE
 Folder structure:
 index.html
 members/index.html
-alumni/index.html
+gallery/index.html
 publications/index.html
 css/style.css
 js/script.js
