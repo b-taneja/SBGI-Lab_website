@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Structural Biology and Genome Informatics Lab, CSIR-IGIB.">
+  <title>Structural Biology & Genome Informatics Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a class="brand" href="index.html" aria-label="BT-SBGIL home">
+        <img src="assets/logo.png" alt="Structural Biology and Genome Informatics Lab">
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="#research">Research</a>
+
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-button" type="button">People ▾</button>
+          <div class="nav-dropdown-menu">
+            <a href="members/index.html">Members</a>
+            <a href="gallery/index.html">Gallery</a>
+          </div>
+        </div>
+
+        <a href="publications/index.html">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow">STRUCTURAL BIOLOGY · GENOMICS · BIOINFORMATICS</p>
+          <h1>Decoding biology from <span>genome to structure.</span></h1>
+          <p class="hero-text">
+            We investigate molecular structure, microbial genomes and regulatory networks
+            to understand mechanisms underlying pathogen biology, adaptation and antimicrobial resistance.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">Explore our research</a>
+            <a class="button secondary" href="members/index.html">Meet the lab</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="research" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">RESEARCH</p>
+          <h2>Questions that connect molecules to microbial systems.</h2>
+          <p>Our research combines computational biology, structural bioinformatics, genomics and experimental approaches.</p>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card featured">
+            <span class="card-index">01</span>
+            <h3>Structural Biology &amp; Protein Function</h3>
+            <p>Structure–function relationships, protein domains, molecular interactions and structural conservation.</p>
+            <div class="tags"><span>AlphaFold</span><span>Protein structure</span><span>Docking</span></div>
+          </article>
+
+          <article class="research-card">
+            <span class="card-index">02</span>
+            <h3>Microbial Regulatory Networks</h3>
+            <p>Deciphering regulatory systems and signalling networks in bacterial and fungal pathogens.</p>
+            <div class="tags"><span>Signalling</span><span>c-di-GMP</span><span>Networks</span></div>
+          </article>
+
+          <article class="research-card">
+            <span class="card-index">03</span>
+            <h3>Genomics &amp; Evolution</h3>
+            <p>Genome variation, phylogeny, population structure and comparative genomics of microbial pathogens.</p>
+            <div class="tags"><span>WGS</span><span>Phylogenomics</span><span>ANI</span></div>
+          </article>
+
+          <article class="research-card">
+            <span class="card-index">04</span>
+            <h3>Antimicrobial Resistance</h3>
+            <p>Integrating genomic and structural information to investigate determinants and mechanisms of AMR.</p>
+            <div class="tags"><span>AMR</span><span>SNPs</span><span>Pathogens</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+<section class="section news-section" id="news">
+
+  <div class="container">
+
+    <div class="section-head news-head">
+
+      <div>
+        <p class="eyebrow">NEWS &amp; UPDATES</p>
+
+        <h2>Latest from the lab.</h2>
+      </div>
+
+      <div class="news-controls">
+
+        <button class="news-arrow news-prev" type="button" aria-label="Previous news">
+          ←
+        </button>
+
+        <button class="news-arrow news-next" type="button" aria-label="Next news">
+          →
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div class="news-slider">
+
+      <div class="news-track">
+
+
+        <!-- NEWS ITEM 01 -->
+        <article class="news-slide">
+
+          <div class="news-image-link">
+
+            <img
+              src="assets/news/npj-gut.png"
+              alt="News image"
+            >
+
+        <div class="news-overlay">
+
+          <span class="news-date">
+            SEPTEMBER 2026
+          </span>
+
+          <h3>
+            Mapping the Gut Microbiome: New Insights into Dyspepsia
+          </h3>
+
+          <p>
+            "Gut biogeographical microbiome in dyspepsia links duodenal ecology and opportunistic pathogens with plasma biomarkers."<br>
+            <em>npj biofilms and gut microbiome</em>.
+          </p>
+
+      <a
+        class="news-read"
+        href="https://www.nature.com/articles/s41522-026-01101-9"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Read more →
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
+                
+
+
+        <!-- NEWS ITEM 02 -->
+        <article class="news-slide">
+
+          <a href="news/news-02.html" class="news-image-link">
+
+            <img
+              src="assets/news/news-02.jpg"
+              alt="News image"
+            >
+
+            <div class="news-overlay">
+
+              <span class="news-date">
+                AUGUST 2026
+              </span>
+
+              <h3>
+                YOUR NEWS TITLE HERE
+              </h3>
+
+              <p>
+                Add a short description of the news or event here.
+              </p>
+
+              <span class="news-read">
+                Read more →
+              </span>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+        <!-- NEWS ITEM 03 -->
+        <article class="news-slide">
+
+          <a href="news/news-03.html" class="news-image-link">
+
+            <img
+              src="assets/news/news-03.jpg"
+              alt="News image"
+            >
+
+            <div class="news-overlay">
+
+              <span class="news-date">
+                JULY 2026
+              </span>
+
+              <h3>
+                YOUR NEWS TITLE HERE
+              </h3>
+
+              <p>
+                Add a short description of the news or event here.
+              </p>
+
+              <span class="news-read">
+                Read more →
+              </span>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+      </div>
+
+    </div>
+
+
+    <!-- DOTS -->
+    <div class="news-dots" aria-label="News navigation"></div>
+
+  </div>
+
+</section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow light">CONTACT</p>
+          <h2>Let’s build better biological understanding together.</h2>
+          <p>For collaborations, research opportunities and academic enquiries, contact the BT-SBL team at CSIR–IGIB.</p>
+        </div>
+
+        <div class="contact-box">
+          <div><span>LAB</span><strong>Structural Biology &amp; Genome Informatics Lab</strong></div>
+          <div><span>INSTITUTE</span><strong>CSIR–Institute of Genomics and Integrative Biology</strong></div>
+          <div><span>LOCATION</span><strong>Delhi, India</strong></div>
+          <div><span>EMAIL</span><strong>btaneja[dot]igib[at]csir[dot]res[dot]in</strong></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div><strong>Structural Biology &amp; Genome Informatics Lab</strong></div>
+      <p>© 2026 BT-SBGIL · CSIR-IGIB</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
